@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2685" started-at="2017-11-03T19:25:41Z" finished-at="2017-11-03T19:25:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2685" started-at="2017-11-03T19:25:41Z" finished-at="2017-11-03T19:25:43Z">
+      <class name="com.general.scripting.Question2b">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.general.scripting.Question2b@2a5ca609]" name="beforeTest" is-config="true" duration-ms="2198" started-at="2017-11-03T15:25:41Z" finished-at="2017-11-03T15:25:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="getFoodAndServings()[pri:0, instance:com.general.scripting.Question2b@2a5ca609]" name="getFoodAndServings" duration-ms="356" started-at="2017-11-03T15:25:43Z" finished-at="2017-11-03T15:25:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFoodAndServings -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.general.scripting.Question2b@2a5ca609]" name="afterTest" is-config="true" duration-ms="103" started-at="2017-11-03T15:25:43Z" finished-at="2017-11-03T15:25:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.general.scripting.Question2b -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
