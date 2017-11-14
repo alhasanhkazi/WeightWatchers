@@ -12,8 +12,7 @@ public class Question3b extends BeforeAfter {
 	private static BufferedReader br;
 
 	public static void main(String[] args) throws IOException {
-										
-		File file = new File("/Users/kazialhasan/Documents/workspace/WeightWatchers/Lib/SampleData.txt");		
+		File file = new File(validFilePath);		
 		ArrayList<WordList> roster = new ArrayList<WordList>();
 		br = new BufferedReader(new FileReader(file));
 		String line = br.readLine();

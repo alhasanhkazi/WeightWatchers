@@ -9,8 +9,6 @@ import java.io.IOException;
 public class Question3a extends BeforeAfter{
 	public static void main(String[] args) {
 		
-		String validFilePath = sysPath+"/Lib/SampleData.txt";
-		
 		try (BufferedReader br = new BufferedReader(new FileReader(validFilePath))) {
 			doesFileExist(validFilePath);
 			System.out.println("File exists in the valid path");			
@@ -20,8 +18,7 @@ public class Question3a extends BeforeAfter{
 			System.out.println("The path is not valid");
 			System.out.println(e);
 		} catch (IOException e) {
-			System.out.println(e);
-		
+			System.out.println(e);		
 		}
 	}
 	
@@ -30,7 +27,9 @@ public class Question3a extends BeforeAfter{
 		File f = new File(path);
 		if (f.exists() && !f.isDirectory()) {
 			return true;
+		}else{
+			return false;	
 		}
-		return false;
+		
 	}
 }

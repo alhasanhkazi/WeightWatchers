@@ -9,6 +9,7 @@ public class BeforeAfter {
 	protected WebDriver driver;
 	static String sysPath =  System.getProperty("user.dir");
 	String libPath = sysPath +"/Lib";
+	static String validFilePath = sysPath+"/Lib/SampleData.txt";
 	
 	@BeforeTest
 	public void beforeTest() {
