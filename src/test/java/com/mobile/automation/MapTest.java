@@ -1,5 +1,8 @@
 package com.mobile.automation;
 
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
@@ -16,6 +19,7 @@ public class MapTest {
 	DesiredCapabilities capabilities;
 	
 
+	@BeforeMethod
 	@BeforeClass
 	public void setUp() throws MalformedURLException {
 		//Set up desired capabilities and pass the Android app-activity

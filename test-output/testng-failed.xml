@@ -1,14 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="firefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.appium.tests.MapTest">
+      <class name="com.general.scripting.Question2a">
         <methods>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.general.scripting.Question2a -->
+      <class name="com.general.scripting.Question2b">
+        <methods>
+          <include name="getFoodAndServings"/>
+        </methods>
+      </class> <!-- com.general.scripting.Question2b -->
+      <class name="com.mobile.automation.MapTest">
+        <methods>
+          <include name="setUp"/>
           <include name="setUp"/>
           <include name="testFindRestaurant"/>
         </methods>
-      </class> <!-- com.appium.tests.MapTest -->
+      </class> <!-- com.mobile.automation.MapTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- firefoxTest(failed) -->
+  <test name="chromTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.general.scripting.Question2a">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.general.scripting.Question2a -->
+      <class name="com.general.scripting.Question2b">
+        <methods>
+          <include name="getFoodAndServings"/>
+        </methods>
+      </class> <!-- com.general.scripting.Question2b -->
+      <class name="com.mobile.automation.MapTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="testFindRestaurant"/>
+        </methods>
+      </class> <!-- com.mobile.automation.MapTest -->
+    </classes>
+  </test> <!-- chromTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

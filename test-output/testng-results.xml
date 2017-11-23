@@ -1,25 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3498" started-at="2017-11-14T05:45:38Z" finished-at="2017-11-14T05:45:41Z">
+  <suite name="Suite" duration-ms="5450" started-at="2017-11-23T18:45:29Z" finished-at="2017-11-23T18:45:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3498" started-at="2017-11-14T05:45:38Z" finished-at="2017-11-14T05:45:41Z">
+    <test name="firefoxTest" duration-ms="3791" started-at="2017-11-23T18:45:29Z" finished-at="2017-11-23T18:45:32Z">
       <class name="com.general.scripting.Question2a">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.general.scripting.Question2a@2a5ca609]" name="beforeTest" is-config="true" duration-ms="3248" started-at="2017-11-14T00:45:38Z" finished-at="2017-11-14T00:45:41Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.general.scripting.Question2a@3532ec19]" name="beforeTest" is-config="true" duration-ms="3477" started-at="2017-11-23T13:45:29Z" finished-at="2017-11-23T13:45:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="getSpecificValues()[pri:0, instance:com.general.scripting.Question2a@2a5ca609]" name="getSpecificValues" duration-ms="155" started-at="2017-11-14T00:45:41Z" finished-at="2017-11-14T00:45:41Z">
+        <test-method status="PASS" signature="getSpecificValues()[pri:0, instance:com.general.scripting.Question2a@3532ec19]" name="getSpecificValues" duration-ms="108" started-at="2017-11-23T13:45:32Z" finished-at="2017-11-23T13:45:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSpecificValues -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.general.scripting.Question2a@2a5ca609]" name="afterTest" is-config="true" duration-ms="82" started-at="2017-11-14T00:45:41Z" finished-at="2017-11-14T00:45:41Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.general.scripting.Question2a@3532ec19]" name="afterTest" is-config="true" duration-ms="182" started-at="2017-11-23T13:45:32Z" finished-at="2017-11-23T13:45:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.general.scripting.Question2a -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- firefoxTest -->
+    <test name="chromTest" duration-ms="1647" started-at="2017-11-23T18:45:32Z" finished-at="2017-11-23T18:45:34Z">
+      <class name="com.general.scripting.Question2a">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.general.scripting.Question2a@57fffcd7]" name="beforeTest" is-config="true" duration-ms="1474" started-at="2017-11-23T13:45:32Z" finished-at="2017-11-23T13:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="getSpecificValues()[pri:0, instance:com.general.scripting.Question2a@57fffcd7]" name="getSpecificValues" duration-ms="98" started-at="2017-11-23T13:45:34Z" finished-at="2017-11-23T13:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSpecificValues -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.general.scripting.Question2a@57fffcd7]" name="afterTest" is-config="true" duration-ms="72" started-at="2017-11-23T13:45:34Z" finished-at="2017-11-23T13:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.general.scripting.Question2a -->
+    </test> <!-- chromTest -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -1,5 +1,6 @@
 package com.general.scripting;
 
+import org.testng.annotations.Test;
 import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

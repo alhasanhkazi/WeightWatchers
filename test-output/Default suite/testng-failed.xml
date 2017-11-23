@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.appium.tests.MapTest">
+      <class name="com.general.scripting.Question2b">
         <methods>
-          <include name="setUp"/>
-          <include name="testFindRestaurant"/>
+          <include name="getFoodAndServings"/>
         </methods>
-      </class> <!-- com.appium.tests.MapTest -->
+      </class> <!-- com.general.scripting.Question2b -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
